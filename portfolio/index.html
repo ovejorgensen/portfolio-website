@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+        <div class="hero-image">
+            <!-- particles.js container --> 
+            <div id="particles-js" class="particle"></div>
+            <div class="hero-text">
+                <h1 id="mainh1">Ove Jørgensen</h1>
+                <div class="content">
+                    <div class="content__container">
+                        <p class="content__container__text">pro</p>
+                        <ul class="content__container__list">
+                            <li class="content__container__list__item">web man</li>
+                            <li class="content__container__list__item">entrepeneur</li>
+                            <li class="content__container__list__item">developer</li>
+                            <li class="content__container__list__item">google user</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row second">
+            <div class="col-md-12">
+                <h2>About me</h2>
+                <h6>Ove Kristian Jørgensen</h6>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-12">
+                <img id="pbimg" src="static/images/classy.png">
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-12">
+                <h5>General information</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat inventore architecto odit? Rerum, id. Aperiam quidem laudantium ipsum exercitationem, qui veniam sint voluptas in voluptatibus adipisci quasi placeat perspiciatis dolore non nesciunt architecto temporibus rem minus expedita quas, ex, vitae dicta repellendus dolores? Recusandae sunt aut laboriosam perferendis tempora possimus, quod illo, expedita dignissimos impedit officia fuga labore? Vel?</p>
+            </div>
+        </div>
+    </main>
+    
+    <!-- scripts and stylesheets at the end for faster page loading -->
+    <link rel="stylesheet" href="static/style2.css">
+    <link rel="stylesheet" href="static/listroller.css">
+    <script src="{{ url_for("static", filename="script.js") }}"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="static/particle.js"></script>
+</body>
+</html>
